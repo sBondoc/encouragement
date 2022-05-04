@@ -40,7 +40,7 @@ fileid = 1OGLtMQgQ3TP-hwhOUQy_Tc0lqQ2yKI9L
 ```
 Access credentials need to be created for the app. Follow the [Google documentation](https://developers.google.com/workspace/guides/create-credentials#oauth-client-id "Credential documentation.") on credential setup to obtain OAuth client ID credentials.
 
-The resultant `credentials.json` file should be downloaded and placed `~/.encouragement/`.
+The resultant `credentials.json` file should be downloaded and placed in `~/.encouragement/`.
 
 ## Usage
 Run `script/app.py` using Python from the project root directory:

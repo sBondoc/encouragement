@@ -6,10 +6,10 @@ PATH.append(str(
 	.parents[1]\
 	/ Path('src')))
 
+from random import choice
 from encouragement.phrase import phrases
 
 def main():
-	for s in phrases():
-		print(s)
+	print(choice(phrases()))
 if __name__ == '__main__':
 	main()
